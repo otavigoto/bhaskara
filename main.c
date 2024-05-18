@@ -14,8 +14,8 @@ int main() {
 	float num1, num2, num3, delta = 0, r1, r2;
 
 
-	printf("escolha a operação:\n");
-	printf(" 1: soma\n 2: subtração\n 3: divisão\n 4: multiplicação\n 5: bhaskara\n");
+	printf("escolha a operaÃ§Ã£o:\n");
+	printf(" 1: soma\n 2: subtraÃ§Ã£o\n 3: divisÃ£o\n 4: multiplicaÃ§Ã£o\n 5: bhaskara\n");
 	scanf_s("%i", &escolha);
 	fflush(stdin);
 
@@ -79,8 +79,8 @@ int main() {
 		
 		delta = bhaskara(num1, num2, num3, delta);
 
-		if (delta <= 0 || num1 == 0 || num2 == 0 || num3 == 0) {
-			printf("não e possivel calcular\n");
+		if (delta <= 0 || num1 == 0) {
+			printf("nÃ£o e possivel calcular\n");
 		}
 		else {
 
